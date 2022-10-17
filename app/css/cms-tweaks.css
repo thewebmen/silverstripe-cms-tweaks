@@ -1,0 +1,26 @@
+/* FORMAT DROPDOWN STYLING */
+.mce-menu-item-preview:not(.mce-menu-item-expand) {
+    display: none;
+}
+
+.mce-floatpanel[class*="mce-menu-sub"] .mce-menu-item-preview:not(.mce-menu-item-expand) {
+    display: block;
+}
+
+.mce-stack-layout {
+    min-width: 200px;
+}
+
+/* MOVE NOTICE SO IT DOESN'T OVERLAP TABS */
+.notice-wrap {
+    top: 60px;
+}
+
+/* MOVE ERROR PAGES TO BOTTOM OF SITETREE */
+.cms .jstree li.jstree-open > ul {
+    display: flex;
+    flex-direction: column;
+}
+.cms .jstree li.jstree-open > ul li[class*="ErrorPage_ErrorPage"] {
+    order: 20;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "wedevelop/silverstripe-cms-tweaks",
+  "description": "A module for silverstripe that adds some simple css tweaks to the admin",
+  "keywords": [
+    "tweaks",
+    "admin",
+    "cms"
+  ],
+  "type": "silverstripe-vendormodule",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "silverstripe/framework": "^4.7",
+    "silverstripe/cms": "^4.7"
+  },
+  "extra": {
+    "installer-name": "silverstripe-cms-tweaks",
+    "expose": [
+      "app/css"
+    ]
+  }
+}
