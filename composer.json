@@ -15,7 +15,8 @@
   "extra": {
     "installer-name": "silverstripe-cms-tweaks",
     "expose": [
-      "app/css"
+      "app/css",
+      "app/images"
     ]
   }
 }
