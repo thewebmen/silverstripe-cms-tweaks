@@ -1,0 +1,6 @@
+---
+Name: cmstweaks
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - 'wedevelop/silverstripe-cms-tweaks: client/dist/css/cms-tweaks.css'

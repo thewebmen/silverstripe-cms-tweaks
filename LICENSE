@@ -1,5 +1,19 @@
-Copyright 2022 WeDevelop
+# Contributing
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Bugtracker
+Bugs are tracked in the issues section of this repository. Before submitting an issue please read over
+existing issues to ensure yours is unique.
+
+If the issue does look like a new bug:
+
+- Create a new issue
+- Describe the steps required to reproduce your issue, and the expected outcome. Unit tests, screenshots
+  and screencasts can help here.
+- Describe your environment as detailed as possible: SilverStripe version, Browser, PHP version,
+  Operating System, any installed SilverStripe modules.
+
+## Security
+Please report security issues to the module maintainers directly. Please don't file security issues in the bugtracker.
+
+## Copyright
+By supplying code to this module in any form you agree to assign copyright of that code to WeDevelop, on the condition that WeDevelop releases that code under a form of open source license.

@@ -1,6 +1,6 @@
 {
   "name": "wedevelop/silverstripe-cms-tweaks",
-  "description": "A module for silverstripe that adds some simple css tweaks to the admin",
+  "description": "A module for SilverStripe that adds some simple css tweaks to the admin",
   "keywords": [
     "tweaks",
     "admin",
@@ -13,10 +13,8 @@
     "silverstripe/cms": "^4.7"
   },
   "extra": {
-    "installer-name": "silverstripe-cms-tweaks",
     "expose": [
-      "app/css",
-      "app/images"
+      "client/dist"
     ]
   }
 }
