@@ -1,20 +1,28 @@
 {
-  "name": "wedevelop/silverstripe-cms-tweaks",
-  "description": "A module for SilverStripe that adds some simple css tweaks to the admin",
-  "keywords": [
-    "tweaks",
-    "admin",
-    "cms"
-  ],
-  "type": "silverstripe-vendormodule",
-  "require": {
-    "php": "^7.4 || ^8.0",
-    "silverstripe/framework": "^4.7",
-    "silverstripe/cms": "^4.7"
-  },
-  "extra": {
-    "expose": [
-      "client/dist"
-    ]
-  }
+    "name": "wedevelopnl/silverstripe-cms-tweaks",
+    "description": "A SilverStripe module that adds some tweaks",
+    "keywords": [
+        "silverstripe",
+        "tweaks",
+        "admin",
+        "cms"
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "WeDevelop",
+            "email": "development@wedevelop.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "silverstripe/cms": "^4.7"
+    },
+    "extra": {
+        "expose": [
+            "client/dist"
+        ]
+    }
 }

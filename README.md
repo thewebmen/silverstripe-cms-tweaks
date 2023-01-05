@@ -1,19 +1,21 @@
 # SilverStripe CMS tweaks
 
-This simple and small module adds the following CSS tweaks to the admin;
+This simple and small module adds the following CSS tweaks to the admin.
+
+## Features
 
 * Format dropdown styling
 * Move notice down so it doesn't overlap tab
 * Move error pages to bottom of SiteTree
+* Add company logo to CMS login page
 
 ## Requirements
-* SilverStripe 4.7+
-* PHP7.1+/8.0+
+* See `composer.json` requirements
 
 ## Installation
-`composer require wedevelop/silverstripe-cms-tweaks`
+`composer require wedevelopnl/silverstripe-cms-tweaks`
 
-After installation run an `dev/build` to make sure the CSS file is loaded in.
+After installation flush cache to make sure the CSS file is loaded in.
 
 ## License
 See [License](LICENSE)
