@@ -21,7 +21,7 @@ After installation flush cache to make sure the CSS file is loaded in.
 See [License](LICENSE)
 
 ## Maintainers
-* [Wedevelop](https://www.webmen.nl/) <developement@webmen.nl>
+* [WeDevelop](https://www.wedevelop.nl/) <development@wedevelop.nl>
 
 ## Development and contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
