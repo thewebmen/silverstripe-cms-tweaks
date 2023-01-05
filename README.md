@@ -1,6 +1,6 @@
 # SilverStripe CMS tweaks
 
-This simple and small module adds the following CSS tweaks to the admin.
+This module adds some tweaks to the CMS.
 
 ## Features
 
