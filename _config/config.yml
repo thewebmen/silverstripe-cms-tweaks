@@ -1,6 +1,10 @@
 ---
-Name: cmstweaks
+Name: silverstripe-enhanced-admin
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-    - 'wedevelopnl/silverstripe-cms-tweaks: client/dist/css/cms-tweaks.css'
+    - 'wedevelopnl/silverstripe-enhanced-admin: client/dist/css/enhanced-admin.css'
+
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - WeDevelop\EnhancedAdmin\Extensions\SiteConfigExtension

@@ -1,9 +1,9 @@
 {
-    "name": "wedevelopnl/silverstripe-cms-tweaks",
-    "description": "A SilverStripe module that adds some tweaks",
+    "name": "wedevelopnl/silverstripe-enhanced-admin",
+    "description": "A SilverStripe module that adds enhancements to the default admin",
     "keywords": [
         "silverstripe",
-        "tweaks",
+        "enhancements",
         "admin",
         "cms"
     ],
@@ -17,8 +17,8 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
-        "silverstripe/cms": "^4.7"
+        "silverstripe/framework": "^5.0",
+        "silverstripe/admin": "^2.0"
     },
     "extra": {
         "expose": [
